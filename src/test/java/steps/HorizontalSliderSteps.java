@@ -59,6 +59,7 @@ public class HorizontalSliderSteps {
 	@When("I focus on the slider")
 	public void i_focus_on_the_slider() {
 		slider.click();
+		initialValue = readSliderValue();
 	}
 
 	@When("I move the slider right")

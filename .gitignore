@@ -1,30 +1,8 @@
-# Maven / Java build output
-**/target/
-**/out/
+# Maven build output
+target/
 
-# Compiled class files
-**/*.class
-
-# Logs
-**/*.log
-
-# Package files
-**/*.jar
-**/*.war
-**/*.ear
-
-# JVM crash logs
-hs_err_pid*
-replay_pid*
-
-# IDE files
-.idea/
-*.iml
-.vscode/
-.classpath
-.project
-.settings/
-
-# OS files
-.DS_Store
-Thumbs.db
+!bdd-java/target/
+bdd-java/target/*
+!bdd-java/target/HtmlReports/
+bdd-java/target/HtmlReports/*
+!bdd-java/target/HtmlReports/report.html
