@@ -79,6 +79,9 @@ Al ejecutar `mvn test`, Cucumber genera reportes en `target/`:
 - `target/JSonReports/report.json`
 - `target/HtmlReports/report.html`
 
+### Reporte:
+[![Ver reporte HTML](docs/report-preview.png)](bdd-java/target/HtmlReports/report.html)
+
 ## Autor
 
 Juan Camilo Posso G.
